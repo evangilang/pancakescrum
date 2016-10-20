@@ -1,0 +1,48 @@
+		html{
+		}
+		body::-webkit-scrollbar { 
+		    display: none; 
+		}
+		body{
+			overflow: hidden;
+		}
+        
+.header {
+    z-index: 99;
+}        
+
+		.obj{
+			display: none;
+			position: absolute;
+			background-color: rgba(102,255,178,0.5);
+            text-decoration: none;
+            color: #000;
+            font-size: 50px;
+            font-family: calibri;
+            
+		}
+		.satu {
+			top: 200px;
+			left: 600px;
+		}
+		.dua{
+			top: 700px;
+			left: 900px;			
+		}
+		.tiga{
+			top: 400px;
+			left: 1600px;
+		}
+        
+        .obj p {
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
